@@ -10,14 +10,16 @@ are searched for a user input string. The search simulates Regular expressions.
 
 The search is case sensitive and the grep -i function has not been implemented.
 
-The program can search for text anywhere in the opened file using the (a) option, the beginning of each line using the (^) option
-or the end of lines using the ($) option.
+The program can search for text anywhere in the opened file using the (a) option, the beginning of each line using the (^) 
+option or the end of lines using the ($) option.
 
-The program checks if the directories and the files in subdirectories all have r permission. The files and directories that are not
-readable are not attempted within the search. The program outputs a permission denied error and lists the unaccessible directories 
+The program checks if the directories and the files in subdirectories all have r permission. The files and directories 
+that are not readable are not attempted within the search. The program outputs a permission denied error and lists the
+unaccessible directories 
 and paths.
 
-The program also checks if the files encountered in subdirectories are binary or text. When binary files are encountered the program does not attempt to search these either. The binary files are also listed by the program.
+The program also checks if the files encountered in subdirectories are binary or text. When binary files are encountered 
+the program does not attempt to search these either. The binary files are also listed by the program.
 
 The program can search for text anywhere in the opened file selected by the user, at the beginning 
 of each line (using the ^ option) or the end of lines (using the $ option). 
