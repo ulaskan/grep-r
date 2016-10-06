@@ -1,0 +1,28 @@
+A program in python that simulates the Linux grep -r command
+The program searches for a text in different parts of files written in Python 
+
+Author: Ulas Askan
+Date: 5 Oct 2016
+Python version written with: 3.4 
+
+This program takes in a user input path where all the files within the path and all the sub-directories in a Linux filesystem 
+are searched for a user input string. The search simulates Regular expressions. 
+
+The search is case sensitive and the grep -i function has not been implemented.
+
+The program can search for text anywhere in the opened file using the (a) option, the beginning of each line using the (^) option
+or the end of lines using the ($) option.
+
+The program checks if the directories and the files in subdirectories all have r permission. The files and directories that are not
+readable are not attempted within the search. The program outputs a permission denied error and lists the unaccessible directories 
+and paths.
+
+The program also checks if the files encountered in subdirectories are binary or text. When binary files are encountered the program does not attempt to search these either. The binary files are also listed by the program.
+
+The program can search for text anywhere in the opened file selected by the user, at the beginning 
+of each line (using the ^ option) or the end of lines (using the $ option). 
+
+The program will check if the file selected by the user is a binary file. If the file is binary the search is not 
+carried out.
+
+If there is no user access to the specified file. The program will inform the user.
