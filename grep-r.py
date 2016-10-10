@@ -1,5 +1,5 @@
 #! /usr/bin/python3
-# Author: Ulas Askan
+# Author: Ulas A.
 # Date: 5 Oct 2016
 # Python version: 3.4 
 # This program takes a path where all the files in the input directory and all the sub-directories in a Linux filesystem 
