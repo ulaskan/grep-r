@@ -1,7 +1,7 @@
 A program in python that simulates the Linux grep -r command
 The program searches for a text in different parts of files written in Python 
 
-Author: Ulas Askan
+Author: Ulas A.
 Date: 5 Oct 2016
 Python version written with: 3.4 
 
